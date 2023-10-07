@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Login page</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <title>Login page</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-<div class="wrapper">
-  <h1>Login</h1>
-  <form action="#">
-    <input type="text" placeholder="Username">
-    <input type="password" placeholder="Password">
 
-  </form>
-  <button>Login</button>
-</div>
+<body>
+  <script src="script/login.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous">
+  </script>
+
+  <div class="wrapper">
+    
+    <h1>Login</h1>
+    <form action="#">
+      <input id="username" type="text" placeholder="Username">
+      <input id="password" type="password" placeholder="Password">
+    </form>
+    <button onclick="checklogin()">Login</button>
+  </div>
 
 </body>
+
 </html>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 h1{
-    font-size: 92%;
+    font-size: 50px;
     color: black;
     margin-bottom: 1.2rem;
 }
