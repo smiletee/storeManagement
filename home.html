@@ -88,7 +88,10 @@
     </header>
     <!-- end header section -->
   
-    <div ng-include="'wellcome.html'"></div>
+    <!-- <div ng-include="'wellcome.html'"></div> -->
+    <div ng-app="myApp" ng-controller="myCtrl">
+      <div ng-include="{{pageName}}"></div>
+    </div>
 
   <!-- info section -->
 
