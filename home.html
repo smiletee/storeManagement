@@ -127,6 +127,20 @@
 
   <!-- end info section -->
 
+  <script>
+  async function oninitHonePage() {
+    console.log('--homw page---')
+    setTimeout(() => {
+      var app = angular.module('myApp', []);
+      app.controller('myCtrl', function ($scope) {
+          $scope.pageName = 'wellcome.html';
+     });
+    }, 200);
+ 
+
+  }
+  </script>
+
 
 </body>
 
